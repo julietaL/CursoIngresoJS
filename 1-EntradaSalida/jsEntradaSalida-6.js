@@ -4,5 +4,18 @@ mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
 
+var numeroUno;
+var numeroDos;
+var resultado;
+numeroUno = document.getElementById('numeroUno').value;
+numeroDos = document.getElementById('numeroDos').value;
+resultado = parseInt(numeroUno) + parseInt(numeroDos);
+alert(resultado);
+//parseInt(numeroUno).value;
+//parseinte(numeroDos).value;
+
+
+
+
 }
 
