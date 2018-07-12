@@ -5,18 +5,20 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 
-//:sueldo  //id:sueldo
-//salida:sueldo con el aumento //id:resultado
 var sueldo;
-var aumento;
-var sueldoConAumento;
+var porcentaje;	
+var importe;
 
-sueldo = document.getElementById('sueldo').value;
-sueldo = parseInt(sueldo);
-aumento = sueldo*(0.1);
-sueldoConAumento = sueldo + aumento; 
-document.getElementById('resultado').value = sueldoConAumento;
-//id:sueldo
-//id:salida
-	
+
+sueldo=document.getElementById('sueldo').value; /*pongo el document para que identifique la caja de donde va a tomar el valor/*
+sueldo=parseInt(sueldo); /* hago el paseInt para que tome el valor de adentro del cuadro de la pag web*/
+porcentaje=sueldo * (10/100);*/
+
+importe= sueldo + porcentaje;		
+document.getElementById('resultado').value=importe; 
+
+//*/tengo que hacer el document para que tome el on clik 
+de la pag web y ponga el resultado//
+
+
 }
